@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Google</title>
+    <style>
+        body {
+            background-color: #ffffff;
+            font-family: Catull, serif;
+            font-size: 14px;
+            margin: 0;
+            padding: 0;
+        }
+
+        #container {
+            text-align: center;
+            margin-top: 200px;
+        }
+
+        #search-input {
+            width: 400px;
+            height: 30px;
+            font-size: 18px;
+            margin-top: 25px;
+        }
+
+        .button-container {
+            display: center;
+            justify-content: space-between;
+            margin-top: 25px;
+        }
+
+        .button {
+            font-size: 16px;
+            padding: 10px 20px;
+            background-color: #f0f0f0;
+            border: none;
+            border-radius: 4px;
+        }
+
+        .span-container {
+            display: center
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+            font-size: 100px;
+            margin-bottom: 20px;
+            letter-spacing: -0.05em;
+            text-shadow: 5px 10px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .span-text {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            flex-direction: column;
+            margin-top: 20px;
+        }
+
+        .span-blue {
+            color: #4285F4;
+        }
+
+        .span-red {
+            color: #DB4437;
+        }
+
+        .span-yellow {
+            color: #F4B400;
+        }
+
+        .span-green {
+            color: #0F9D58;
+        }
+
+        .span-large {
+            font-size: 20px;
+            letter-spacing: -0.05em;
+        }
+        .superscript {
+            line-height: 0.5;
+            vertical-align: 3.5em;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div class="span-container">
+            <span class="span span-blue">G</span>
+            <span class="span span-red">o</span>
+            <span class="span span-yellow">o</span>
+            <span class="span span-blue">g</span>
+            <span class="span span-green">l</span>
+            <span class="span span-red">e</span>
+            <span class="span span-large"><sup class="superscript">sm</sup></span>
+        </div>
+        <div class="span-text">
+            <span class="span-large">Enter your search terms...</span>
+        <form action="https://www.google.com/search" method="GET">
+            <input id="search-input" type="text" name="q" placeholder=" ">
+            <div class="span-text">
+                <span class="span-large">...or <a href="www.google.com.br">browser web pages</a href="www.google.com.br"> by category.</span>
+                <span class="span-large">Give the gift of Google and earn rewards: <a href="www.google.com.br">Join our affiliate program.</a href="www.google.com.br"></span>
+            <div class="button-container">
+                <button class="button" type="submit">Google Search</button>
+                <button class="button" type="submit">I'm Felling Lucky</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
